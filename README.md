@@ -76,7 +76,14 @@ Usage
 ```javascript
 'use strict'
 
-const breactRedux = require('breact-redux')
+const { withProvider } = require('breact-redux')
+const React = require('react')
+
+{
+  let div = React.createElement('div', { id: 123 })
+  let provided = withProvider(div, { store: {} })
+  /* ... */
+}
 
 ```
 
@@ -119,6 +126,8 @@ This software is released under the [MIT License](https://github.com/b-labo/brea
 Links
 ------
 
++ [b-labo][b_labo_url]
 
+[b_labo_url]: https://github.com/b-labo
 
 <!-- Links End -->

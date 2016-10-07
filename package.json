@@ -1,6 +1,6 @@
 {
   "name": "breact-redux",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "B bind for react redux",
   "main": "lib",
   "scripts": {
