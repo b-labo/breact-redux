@@ -1,0 +1,56 @@
+{
+  "name": "breact-redux",
+  "version": "1.0.0",
+  "description": "B bind for react redux",
+  "main": "lib",
+  "scripts": {
+    "test": "node ./ci/test.js",
+    "prepublish": "node ./ci/build.js && node ./ci/shim.js"
+  },
+  "repository": "b-labo/breact-redux",
+  "keywords": [
+    "recux"
+  ],
+  "author": {
+    "name": "Taka Okunishi",
+    "email": "okunishinishi@gmail.com",
+    "url": "http://okunishitaka.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/b-labo/breact-redux/issues"
+  },
+  "homepage": "https://github.com/b-labo/breact-redux#readme",
+  "dependencies": {
+    "breact": "^1.2.0",
+    "co": "^4.6.0"
+  },
+  "devDependencies": {
+    "ababel": "^1.1.10",
+    "ababel-es2015": "^1.0.8",
+    "aglob": "^1.1.1",
+    "amocha": "^1.0.15",
+    "ape-doc": "^2.0.4",
+    "ape-formatting": "^1.0.2",
+    "ape-releasing": "^4.0.4",
+    "ape-reporting": "^3.0.2",
+    "ape-tasking": "^4.0.9",
+    "ape-tmpl": "^5.0.19",
+    "ape-updating": "^4.0.5",
+    "coz": "^6.0.20",
+    "injectmock": "^2.0.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-redux": "^4.4.5",
+    "redux": "^3.6.0"
+  },
+  "peerDependencies": {
+    "react": ">=15",
+    "react-dom": ">=15",
+    "redux": ">=3"
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3"
+  }
+}
